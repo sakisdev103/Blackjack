@@ -1,0 +1,73 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-align: center;
+    padding-top: 10%;
+    background-image: url(../images/blackjack.jpg);
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.main-header{
+    color: #FF8C00;
+}
+
+.start-button{
+    background-color: #ffaf4d;
+    color: #fff;
+    padding: 1%;
+    font-size: 23px;
+    margin: 20px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+}
+
+.start-button:hover{
+    transform: scale(1.2);
+    color: #ffaf4d;
+    background-color: #fff;
+}
+
+.new-card-button{
+    background-color: #ffaf4d;
+    color: #fff;
+    padding: 1%;
+    font-size: 23px;
+    margin: 20px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+}
+
+.new-card-button:hover{
+    transform: scale(1.2);
+    color: #ffaf4d;
+    background-color: #fff;
+}
+
+.credits{
+    font-size: 17px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+@media screen and (max-width: 1300px){
+    body{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    body{
+        margin-top: 20%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        margin-top: 40%;
+    }
+}
